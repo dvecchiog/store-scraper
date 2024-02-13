@@ -5,8 +5,10 @@ name = "pypi"
 
 [packages]
 fastapi = "*"
-uvicorn = {extras = ["standard"], version = "*"}
+uvicorn = "*"
 pyppeteer = "*"
+nest-asyncio = "*"
+pandas = "*"
 
 [dev-packages]
 
