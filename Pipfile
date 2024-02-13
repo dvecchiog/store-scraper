@@ -5,12 +5,21 @@ name = "pypi"
 
 [packages]
 fastapi = "*"
+<<<<<<< HEAD
 uvicorn = "*"
 pyppeteer = "*"
 nest-asyncio = "*"
 pandas = "*"
+=======
+uvicorn = {extras = ["standard"] }
+pyppeteer = "*"
+requests = "*"
+aiohttp = "*"
+beautifulsoup4 = "*"
+>>>>>>> origin/feature/fastapi/create-models
 
 [dev-packages]
+black = "*"
 
 [requires]
 python_version = "3.12"
